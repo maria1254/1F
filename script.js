@@ -14,8 +14,9 @@ function mySubmit(){
 
 
     case "1B":
-        alert("目的地は現在地と同じ1階A階段カテゴリーです。\nページを戻り、先ほどのマップから目的地をご確認ください。");
-        window.location.href = "";
+        myURL = "1Fmap.jpg"
+        alert("目的地は現在地と同じ1階A階段カテゴリーです。\n okボタンをクリックし、マップから目的地をご確認ください。");
+        
     break;
     
     case "1C":
@@ -23,32 +24,32 @@ function mySubmit(){
     break;
     
     case "1D":
-        alert("目的地は現在地と同じ1階A階段カテゴリーです。\nページを戻り、先ほどのマップから目的地をご確認ください。");
-        window.location.href = "";
+        myURL = "1Fmap.jpg"
+        alert("目的地は現在地と同じ1階A階段カテゴリーです。\n okボタンをクリックし、マップから目的地をご確認ください。");
     break;
     
     
     case "1E":
-        alert("目的地は現在地と同じ1階A階段カテゴリーです。\nページを戻り、先ほどのマップから目的地をご確認ください。");
-        window.location.href = "";
+        myURL = "1Fmap.jpg"
+        alert("目的地は現在地と同じ1階A階段カテゴリーです。\n okボタンをクリックし、マップから目的地をご確認ください。"); 
     break;
     
     
     case "1F":
-        alert("目的地は現在地と同じ1階A階段カテゴリーです。\nページを戻り、先ほどのマップから目的地をご確認ください。");
-        window.location.href = "";
+        myURL = "1Fmap.jpg"
+        alert("目的地は現在地と同じ1階A階段カテゴリーです。\n okボタンをクリックし、マップから目的地をご確認ください。"); 
     break;
     
     
     case "1G":
-        alert("目的地は現在地と同じ1階A階段カテゴリーです。\nページを戻り、先ほどのマップから目的地をご確認ください。");
-        window.location.href = "";
+        myURL = "1Fmap.jpg"
+        alert("目的地は現在地と同じ1階A階段カテゴリーです。\n okボタンをクリックし、マップから目的地をご確認ください。");
     break;
     
     
     case "1H":
-        alert("目的地は現在地と同じ1階A階段カテゴリーです。\nページを戻り、先ほどのマップから目的地をご確認ください。");
-        window.location.href = "";
+        myURL = "1Fmap.jpg"
+        alert("目的地は現在地と同じ1階A階段カテゴリーです。\n okボタンをクリックし、マップから目的地をご確認ください。"); 
     break;
     
     
