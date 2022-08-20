@@ -1,0 +1,55 @@
+h1{
+    text-align:center;
+    font-size:25px;
+    color:rgb(255, 255, 255);
+    margin-bottom: 0;
+    padding: 30px 4% 10px;
+    background-color:rgb(51, 144, 197);
+    
+}
+
+
+
+
+    
+
+h1 span{
+    font-size:100px
+    
+    
+}
+
+
+p{
+    text-align: center;
+    font-size:30px;
+    font-weight:bold;
+   
+}
+
+
+.select{
+    text-align:center;
+    font-size:50px;
+}
+
+#style1{
+    width:520px;
+    height:65px;
+    font-size:35px;
+
+}
+
+#style2{
+    width:520px;
+    height:65px;
+    font-size:35px;
+
+}
+
+#in{
+    width:200px;
+    height:80px;
+    font-size:40px;
+
+}
