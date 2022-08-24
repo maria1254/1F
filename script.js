@@ -6,50 +6,52 @@ function mySubmit(){
     
     switch(val1+val2){
     
+
+//1-1//
     
     case "1A":
-    myURL = "1a-b.mp4"
+    myURL = "IMG_6863 2.mov"
     break;
-
 
 
     case "1B":
         myURL = "1Fmap.jpg"
-        alert("目的地は現在地と同じ1階A階段カテゴリーです。\n okボタンをクリックし、マップから目的地をご確認ください。");
+        alert("目的地は現在地と同じ1階A階段エリアです。\n okボタンをクリックし、マップから目的地をご確認ください。");
         
     break;
     
     case "1C":
-    
+        myURL = "1-tamokuteki.mp4"
+       
     break;
     
     case "1D":
         myURL = "1Fmap.jpg"
-        alert("目的地は現在地と同じ1階A階段カテゴリーです。\n okボタンをクリックし、マップから目的地をご確認ください。");
+        alert("目的地は現在地と同じ1階A階段エリア（赤色）です。\n okボタンをクリックし、マップから目的地をご確認ください。");
     break;
     
     
     case "1E":
         myURL = "1Fmap.jpg"
-        alert("目的地は現在地と同じ1階A階段カテゴリーです。\n okボタンをクリックし、マップから目的地をご確認ください。"); 
+        alert("目的地は現在地と同じ1階A階段エリア（赤色）です。\n okボタンをクリックし、マップから目的地をご確認ください。"); 
     break;
     
     
     case "1F":
         myURL = "1Fmap.jpg"
-        alert("目的地は現在地と同じ1階A階段カテゴリーです。\n okボタンをクリックし、マップから目的地をご確認ください。"); 
+        alert("目的地は現在地と同じ1階A階段エリア（赤色）です。\n okボタンをクリックし、マップから目的地をご確認ください。"); 
     break;
     
     
     case "1G":
         myURL = "1Fmap.jpg"
-        alert("目的地は現在地と同じ1階A階段カテゴリーです。\n okボタンをクリックし、マップから目的地をご確認ください。");
+        alert("目的地は現在地と同じ1階A階段エリア（赤色）です。\n okボタンをクリックし、マップから目的地をご確認ください。");
     break;
     
     
     case "1H":
         myURL = "1Fmap.jpg"
-        alert("目的地は現在地と同じ1階A階段カテゴリーです。\n okボタンをクリックし、マップから目的地をご確認ください。"); 
+        alert("目的地は現在地と同じ1階A階段エリア（赤色）です。\n okボタンをクリックし、マップから目的地をご確認ください。"); 
     break;
     
     
@@ -92,7 +94,7 @@ function mySubmit(){
     myURL = "1a-d.mp4"
     break;
     
-    
+    /*
     case "1Q":
     myURL = ""
     break;
@@ -101,7 +103,8 @@ function mySubmit(){
     case "1R":
     myURL = ""
     break;
-    
+    */
+
     
     case "1S":
     myURL = "1a-d.mp4"
@@ -122,9 +125,8 @@ function mySubmit(){
     myURL = "1a-b.mp4"
     break;
     
-
-
-
+    
+//2F//
 
 
 
@@ -135,7 +137,7 @@ function mySubmit(){
     myURL = ""
     break;
     
-    
+ 
     
     case "1X":
     myURL = ""
@@ -368,15 +370,15 @@ function mySubmit(){
     
     
         
-    case "A":
+    case "2A":
     myURL = ""
     break;
     
-    case "B":
+    case "2B":
     myURL = ""
     break;
     
-    case "C":
+    case "2C":
     myURL = ""
     break;
     
@@ -385,27 +387,27 @@ function mySubmit(){
     break;
     
     
-    case "E":
+    case "2E":
     myURL = ""
     break;
     
     
-    case "F":
+    case "2F":
     myURL = ""
     break;
     
     
-    case "G":
+    case "2G":
     myURL = ""
     break;
     
     
-    case "H":
+    case "2H":
     myURL = ""
     break;
     
     
-    case "I":
+    case "2I":
     myURL = ""
     break;
     

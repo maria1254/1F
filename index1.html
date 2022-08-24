@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Caritas map</title>
+<meta charset="UTF-8">
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<h1>Caritas Lab<br><span>Caritas Map</span></h1>
+
+<br>
+
+
+
+
+    <img src="1Fmap.jpg" style="width:100%;">
+    <br><br><br><br>
+
+
+<p>近くの教室またはこちらのマップから現在地を選択してください。</p>
+
+
+    <div class="select">
+    <form name="frmMain">
+
+        
+
+    <select name="sct1" id="style1" >
+        <option value="" hidden>現在地を選択してください</option>
+
+
+        A
+        <option value="1">カウンセリングルーム</option>
+        <option value="2">多目的トイレ</option>
+        <option value="3">社会室１</option>
+        <option value="4">社会室２</option>
+        <option value="5">社会室３</option>
+        <option value="6">社会室４</option>
+        <option value="7">英語サテライト室１</option>
+
+        B
+        <option value="8">図書館</option>
+        <option value="9">正面玄関　保健室</option>
+        <option value="10">事務室</option>
+
+        C
+        <option value="11">英語サテライト室２</option>
+        <option value="12">国語室１</option>
+        <option value="13">国語室２</option>
+        <option value="14">国語室３</option>
+        <option value="15">国語室４</option>
+        <option value="16">作法室</option>
+        <option value="17">フォアイエ・マレ</option>
+
+        D
+        <option value="18">書道室</option>
+        <option value="19">美術 工芸室</option>
+        <option value="20">体育館</option>
+        <option value="21">グラウンド</option>
+        <option value="22">カフェテリア</option>
+      
+       
+
+       
+    </select><br><br>
+    
+    <p>目的地を選択してください</p>
+
+    <select name="sct2" id="style2" >
+
+        <option value="" hidden>目的地を選択してください</option>
+        <option value="A">事務室</option>
+        <option value="B">カウンセリングルーム</option>
+        <option value="C">多目的トイレ</option>
+        <option value="D">社会室１  1-1米</option>
+        <option value="E">社会室２　12の乙女たちよ!!</option>
+        <option value="F">社会室３　13カルパス</option>
+        <option value="G">社会室４　14よしえ共和国</option>
+        <option value="H">英語サテライト室１　いちごいちえ</option>
+        <option value="I">英語サテライト室２　花野井ランド</option>
+        <option value="J">国語室１　Englishhusband@21</option>
+        <option value="K">国語室２ </option>
+        <option value="L">国語室３　Let's come on CASINO??</option>
+        <option value="M">国語室４ 24ふぉとばるーん</option>
+        <option value="N">作法室　茶道部</option>
+        <option value="O">書道室　アンジェラスの会（家庭科室）</option>
+        <option value="P">美術　工芸室　美術部</option>
+
+        <!--
+        <option value="Q">！！体育館　書ガール/バスケットボール部/</option>
+        <option value="R">！！グラウンド　フットサル部/テニス部/VS先生return/</option>
+       -->
+
+
+        <option value="S">カフェテリア　Alland/Bright Stage</option>
+        <option value="T">フォアイエ・マレ</option>
+        <option value="U">図書館　図書委員会</option>
+        <option value="V">正面玄関　保健室</option>
+
+
+
+
+
+
+        
+
+
+        <option value="W">2階講堂 ダンス部/コーラス部/演劇部/オーケストラ部</option>
+        <option value="X">アンジェラス室</option>
+        <option value="Y">生徒会室</option>
+        <option value="Z">社会室５　広報</option>
+        <option value="AA">社会室６　バレーボール部</option>
+        <option value="BB">社会室７　チョロっとよってかない？</option>
+        <option value="CC">社会室８　漫画研究部</option>
+        <option value="DD">２階予備室 最強王は誰だ！/チームラボチーム</option>
+        <option value="EE">保健体育室　チームラボチーム</option>
+        <option value="FF">国語室５　華道部</option>
+        <option value="GG">国語室６　teen's factory by cooking club</option>
+        <option value="HH">国語室７ Make the future✖Action1.5</option>
+        <option value="II">国語室８　E.S.S部</option>
+        <option value="JJ">小講堂　軽音楽部</option>
+        <option value="KK">音楽室　音楽便</option>
+        <option value="LL">英語室１　軽音楽部</option>
+        <option value="MM">英語室２ オーケストラ部</option>
+        <option value="NN">英語室３ オーケストラ部</option>
+        <option value="OO">アクテビティ室　校長先生</option>
+        <option value="PP">宗教室　アンジェラスの会</option>
+        <option value="QQ">中会議室　アンジェラスの会</option>
+        <option value="RR">聖堂</option>
+        <option value="SS">３階講堂　ダンス部/コーラス部/演劇部/オーケストラ部</option>
+        <option value="TT">数学室１　謎解き宝探しゲーム</option>
+        <option value="UU">数学室２　謎解き宝探しゲーム</option>
+        <option value="VV">数学室３　中３展示</option>
+        <option value="WW">数学室４　立体制作②</option>
+        <option value="XX">３階予備室　ジェットコースター</option>
+        <option value="YY">コンピュータ室　パソコン研究会（愛好会）</option>
+        <option value="ZZ">外国語室１（右テラス）　縁日</option>
+        <option value="a">外国語室２　Petit pas de Caritas</option>
+        <option value="b">フランス語室１　sol-lem</option>
+        <option value="c">フランス語室２　ファッションセンターcaritas</option>
+        <option value="d">フランス語室３ Les comomile</option>
+        <option value="e">×Call室2</option>
+        <option value="f">英語室４　中３動画作成班</option>
+        <option value="g">×英語室５</option>
+        <option value="h">×英語室６</option>
+        <option value="i">×英語室７</option>
+        <option value="j">数学室５　かるた部</option>
+        <option value="k"></option>
+        <option value="l">×数学室６</option>
+        <option value="m">数学室７　卓球部</option>
+        <option value="n">数学室８ 44クラス</option>
+        <option value="o">数学室９ ballon</option>
+        <option value="p">理科室１ 写真部</option>
+        <option value="q">理科室２ 理科部</option>
+        <option value="r">化学室　理科部</option>
+        <option value="s">物理室 理科（教科）</option>
+        <option value="t">生物室 生物部</option>
+
+
+    </select>
+
+
+
+<br>
+<br>
+
+
+<input type="button" name="btnSubmit"
+value="決定" onclick="mySubmit();" id="in">
+</form>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
