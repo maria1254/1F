@@ -18,11 +18,6 @@ function mySubmit(){
         alert("目的地は現在地と同じ1階A階段エリアです。\n okボタンをクリックし、マップから目的地をご確認ください。");
         break;
 */
-
-
-
-
-
         case "2":
         myURL = "1a-b.mp4"
         break;
@@ -50,7 +45,6 @@ function mySubmit(){
 */
 
 
-
             case "5":
             myURL = "A1-A2.mp4"
             break;
@@ -59,7 +53,6 @@ function mySubmit(){
             case "6":
             myURL = "A1-B2.mp4"
             break;
-
 
 
                 case "7":
@@ -78,11 +71,6 @@ function mySubmit(){
                 break;
 
             
-
-
-
-
-
                 case "10":
                 myURL = "A1-B3.mp4"
                 alert("三階講堂はC階段（黄色）エリアの先にあります。")
@@ -92,26 +80,25 @@ function mySubmit(){
                 myURL = "A1-A3.mp4"
                 break;
 
-             
+                case "12":
+                myURL = "A1-B3.mp4"
+                break;
 
+                case "13":
+                myURL = "A1-D3.mp4"
+                break;
 
+                case "14":
+                myURL = "A1-A4.mp4"
+                break;
 
+                case "15":
+                myURL = "A1-B4.mp4"
+                break;
 
-
-
-
-
-
-            
-
-                    
-        
-
-        
-
-        
-
-    
+                case "16":
+                myURL="A1-D4.mp4";
+                break;
 
     }
     
